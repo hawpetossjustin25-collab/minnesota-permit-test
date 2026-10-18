@@ -2,6 +2,26 @@
 
 100% free forever. Works fully offline. No subscriptions, no API keys.
 
+## Install (anyone can get it)
+
+**Option 1 - pip install from GitHub:**
+```bash
+pip install git+https://github.com/hawpetossjustin25-collab/minnesota-permit-test.git
+mn-permit-test
+```
+
+**Option 2 - download and run:**
+```bash
+git clone https://github.com/hawpetossjustin25-collab/minnesota-permit-test.git
+cd minnesota-permit-test
+pip install -r requirements.txt
+python minnesota_permit_test.py
+```
+
+**Option 3 - Windows launcher:**
+Download the zip from GitHub, unzip, double-click `start_permit_test.bat`
+(it auto-installs PyQt6).
+
 ## What It Does
 
 - **1,000-question bank** built from the official Minnesota Driver's Manual

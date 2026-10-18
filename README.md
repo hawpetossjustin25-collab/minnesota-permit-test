@@ -2,6 +2,19 @@
 
 100% free forever. Works fully offline. No subscriptions, no API keys.
 
+## Phone App (no install needed)
+
+**https://hawpetossjustin25-collab.github.io/minnesota-permit-test/**
+
+Open that link on your phone — it's the full 1,000-question test running in
+the browser. To make it a real app:
+
+- **Android:** open in Chrome → menu (⋮) → **Add to Home screen**
+- **iPhone:** open in Safari → Share → **Add to Home Screen**
+
+It then sits on your home screen like an app, works offline, and remembers
+your progress and missed questions in the phone's storage.
+
 ## Install (anyone can get it)
 
 **Option 1 - pip install from GitHub:**

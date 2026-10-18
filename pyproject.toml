@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minnesota-permit-test"
+version = "1.0.0"
+description = "Minnesota Class D permit knowledge test practice - 1000-question adaptive drill, free forever, works offline"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "hawpetossjustin25-collab"}]
+dependencies = ["PyQt6>=6.0.0"]
+
+[project.scripts]
+mn-permit-test = "minnesota_permit_test:main"
+
+[tool.setuptools]
+py-modules = ["minnesota_permit_test", "question_bank"]
